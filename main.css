@@ -33,9 +33,10 @@ body {
 }
 
 .main {
-  width: 75%;
+  width: 74%;
   float:left;
-  margin-right: 5%;
+  margin-right: 3%;
+  margin-left: 3%;
 }
 
 .main h1 {
@@ -103,10 +104,27 @@ body {
 }
 @media screen and (max-width:960px){
   .title img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
     border: 2px solid #58d099;
   }
-
+  .leftline {
+    width: 30%;
+    height: 2px;
+    background-color: #229e66;
+    display: inline-block;
+    margin-bottom: 2px;
+  }
+  .rightline {
+    width: 30%;
+    height: 2px;
+    background-color: #229e66;
+    display: inline-block;
+  }
+  .title a {
+    color: #0a643b;
+    font-size: 15px;
+    line-height:2;
+  }
 }
