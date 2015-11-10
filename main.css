@@ -35,6 +35,48 @@ body {
   float:left;
 }
 
+.main h1 {
+  color: #0a643b;
+}
+.main p {
+  text-align: left;
+  color: #229e66;
+}
+.subtitle {
+  text-align: center;
+  margin:0 auto 0 auto;
+}
+.leftline {
+  width: 40%;
+  height: 2px;
+  background-color: #229e66;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+.rightline {
+  width: 40%;
+  height: 2px;
+  background-color: #229e66;
+  display: inline-block;
+}
+.subtitle h3 {
+  display: inline;
+  margin: 0 10px 0 10px;
+  color: #0a643b;
+}
+.images {
+  display: inline;
+  position: relative;
+  top:120px;
+  text-align: center;
+  margin:0 auto 0 auto;
+}
+.images img {
+  max-width: 130px;
+  max-height: 130px;
+  margin:0 20px 0 20px;
+}
+
 .clear {
   clear: both;
 }
